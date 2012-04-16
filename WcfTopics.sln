@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockFinder", "StockFinder\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFTopcics-CodeConfigure", "WCFTopcics-CodeConfigure\WCFTopcics-CodeConfigure.csproj", "{79AFEE3A-4B33-4D1C-AD87-2892434F40D9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Basics", "1.Basics", "{7CC1757A-DB0E-49D6-A7B8-18003A09225F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.CodeConfig", "2.CodeConfig", "{CDC70192-71D7-44E0-BCF4-51EAA614EB7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -28,5 +32,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B4A13D2B-9664-40A6-A385-19D31E5CCD35} = {7CC1757A-DB0E-49D6-A7B8-18003A09225F}
+		{79AFEE3A-4B33-4D1C-AD87-2892434F40D9} = {CDC70192-71D7-44E0-BCF4-51EAA614EB7D}
 	EndGlobalSection
 EndGlobal
