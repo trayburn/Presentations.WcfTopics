@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfTopics-Basic", "WcfTopic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockFinder", "StockFinder\StockFinder.csproj", "{B90FB9C9-2029-4DB3-B24B-DBE31C87ABD5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFTopcics-CodeConfigure", "WCFTopcics-CodeConfigure\WCFTopcics-CodeConfigure.csproj", "{79AFEE3A-4B33-4D1C-AD87-2892434F40D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,6 +21,10 @@ Global
 		{B90FB9C9-2029-4DB3-B24B-DBE31C87ABD5}.Debug|x86.Build.0 = Debug|x86
 		{B90FB9C9-2029-4DB3-B24B-DBE31C87ABD5}.Release|x86.ActiveCfg = Release|x86
 		{B90FB9C9-2029-4DB3-B24B-DBE31C87ABD5}.Release|x86.Build.0 = Release|x86
+		{79AFEE3A-4B33-4D1C-AD87-2892434F40D9}.Debug|x86.ActiveCfg = Debug|x86
+		{79AFEE3A-4B33-4D1C-AD87-2892434F40D9}.Debug|x86.Build.0 = Debug|x86
+		{79AFEE3A-4B33-4D1C-AD87-2892434F40D9}.Release|x86.ActiveCfg = Release|x86
+		{79AFEE3A-4B33-4D1C-AD87-2892434F40D9}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
