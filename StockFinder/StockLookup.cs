@@ -10,7 +10,7 @@ using System.ServiceModel.Activation;
 namespace StockFinder
 {
     // Service Implementation
-    // [AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
+    [AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
     public class StockLookup : IStockLookup
     {
         public double GetPrice(string symbol)

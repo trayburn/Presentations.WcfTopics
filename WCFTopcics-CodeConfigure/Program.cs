@@ -24,9 +24,9 @@ namespace WCFTopcics_CodeConfigure
                     binding,                // Binding
                     "Stock");               // Address
 
-                //var smb = new ServiceMetadataBehavior();
-                //smb.HttpGetEnabled = true;
-                //host.Description.Behaviors.Add(smb);
+                var smb = new ServiceMetadataBehavior();
+                smb.HttpGetEnabled = true;
+                host.Description.Behaviors.Add(smb);
 
                 host.Open();
                 Console.WriteLine("Host is now running...");
