@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfTopics-IoC", "WcfTopics-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.InversionOfControl", "4.InversionOfControl", "{44B88737-475B-4DFE-B12F-8E89601111B9}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.JQuery", "5.JQuery", "{474B05D4-C001-4DB0-8A7B-3F98997CC2D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfTopics-JQuery", "WcfTopics-JQuery\WcfTopics-JQuery.csproj", "{90AA9C21-5117-47E8-9C61-B8D5EE06F807}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,6 +83,16 @@ Global
 		{9DE02C1B-DD7A-413D-92A4-E00296459866}.Release|Mixed Platforms.Build.0 = Release|x86
 		{9DE02C1B-DD7A-413D-92A4-E00296459866}.Release|x86.ActiveCfg = Release|x86
 		{9DE02C1B-DD7A-413D-92A4-E00296459866}.Release|x86.Build.0 = Release|x86
+		{90AA9C21-5117-47E8-9C61-B8D5EE06F807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90AA9C21-5117-47E8-9C61-B8D5EE06F807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90AA9C21-5117-47E8-9C61-B8D5EE06F807}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{90AA9C21-5117-47E8-9C61-B8D5EE06F807}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{90AA9C21-5117-47E8-9C61-B8D5EE06F807}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{90AA9C21-5117-47E8-9C61-B8D5EE06F807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90AA9C21-5117-47E8-9C61-B8D5EE06F807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90AA9C21-5117-47E8-9C61-B8D5EE06F807}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{90AA9C21-5117-47E8-9C61-B8D5EE06F807}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{90AA9C21-5117-47E8-9C61-B8D5EE06F807}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,5 +102,6 @@ Global
 		{79AFEE3A-4B33-4D1C-AD87-2892434F40D9} = {CDC70192-71D7-44E0-BCF4-51EAA614EB7D}
 		{59DE3718-6203-4E52-BFD5-4751E54B588E} = {119158EA-BED8-4C4E-9ACA-0B250D1D579D}
 		{9DE02C1B-DD7A-413D-92A4-E00296459866} = {44B88737-475B-4DFE-B12F-8E89601111B9}
+		{90AA9C21-5117-47E8-9C61-B8D5EE06F807} = {474B05D4-C001-4DB0-8A7B-3F98997CC2D4}
 	EndGlobalSection
 EndGlobal

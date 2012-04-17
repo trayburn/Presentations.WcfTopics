@@ -4,32 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Runtime.Serialization;
 using System.ServiceModel;
+using System.ServiceModel.Web;
+using System.ServiceModel.Activation;
 
 namespace StockFinder
 {
-    // Contract
-    [ServiceContract]
-    public interface IStockLookup
-    {
-        [OperationContract]
-    	double GetPrice(string symbol);
-        [OperationContract]
-        StockInfo GetInfo(string symbol);
-    }
-
-    // DataContract
-    [DataContract]
-    public class StockInfo
-    {
-        [DataMember]
-        public string Symbol { get; set; }
-        [DataMember]
-        public double Price { get; set; }
-        [DataMember]
-        public string Description { get; set; }
-    }
-
     // Service Implementation
+    // [AspNetCompatibilityRequirements(RequirementsMode = AspNetCompatibilityRequirementsMode.Allowed)]
     public class StockLookup : IStockLookup
     {
         public double GetPrice(string symbol)
