@@ -25,12 +25,11 @@
                 $.ajax({
                     async: true,
                     complete: function () { alert('complete'); },
-                    data: JSON.stringify({ 'symbol': $('#stock').val() }),
                     processData: false,
                     dataType: "text",
                     contentType: "application/json",
-                    type: 'POST',
-                    url: 'Stock.svc/GetPrice',
+                    type: 'GET',
+                    url: 'Stock.svc/GetPrice/' + $('#stock').val(),
                     error: function (x,e,t) { alert('Message : ' + e); },
                     success: function (r) { alert(r); }
                 });
