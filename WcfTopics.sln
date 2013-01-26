@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfTopics-IoC", "WcfTopics-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfTopics-JQuery", "WcfTopics-JQuery\WcfTopics-JQuery.csproj", "{90AA9C21-5117-47E8-9C61-B8D5EE06F807}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleClient", "SimpleClient\SimpleClient.csproj", "{87946557-05EF-4FEC-B485-A5548CD504A0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,16 @@ Global
 		{90AA9C21-5117-47E8-9C61-B8D5EE06F807}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{90AA9C21-5117-47E8-9C61-B8D5EE06F807}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{90AA9C21-5117-47E8-9C61-B8D5EE06F807}.Release|x86.ActiveCfg = Release|Any CPU
+		{87946557-05EF-4FEC-B485-A5548CD504A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87946557-05EF-4FEC-B485-A5548CD504A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87946557-05EF-4FEC-B485-A5548CD504A0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{87946557-05EF-4FEC-B485-A5548CD504A0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{87946557-05EF-4FEC-B485-A5548CD504A0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{87946557-05EF-4FEC-B485-A5548CD504A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87946557-05EF-4FEC-B485-A5548CD504A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87946557-05EF-4FEC-B485-A5548CD504A0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{87946557-05EF-4FEC-B485-A5548CD504A0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{87946557-05EF-4FEC-B485-A5548CD504A0}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

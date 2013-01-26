@@ -10,10 +10,13 @@ namespace StockFinder
     [ServiceContract]
     public interface IStockLookup
     {
-        [WebGet(ResponseFormat=WebMessageFormat.Json,
-            UriTemplate="/GetPrice/{symbol}")]
+        //[WebGet(ResponseFormat=WebMessageFormat.Json,
+        //    UriTemplate="/GetPrice/{symbol}")]
+
         [OperationContract]
         double GetPrice(string symbol);
+
+
         [OperationContract]
         StockInfo GetInfo(string symbol);
     }
